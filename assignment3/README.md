@@ -35,17 +35,17 @@ Machine Translation (MT) is the task of automatically converting text from one l
   - *Additive Attention* : More expressive than multiplicative attention due to the non-linearity (tanh) makes it the most computationally expensive.
 
 - **Training and validation loss plots**:
-  ![App Screenshot](plotloss.png)
+  ![App Screenshot](/pictures/plotloss.png)
 
 - **Training and validation loss**:
-  ![App Screenshot](table.png)
+  ![App Screenshot](/pictures/table.png)
 
 - **Attention maps**:
-  ![App Screenshot](attentionMap.png)
+  ![App Screenshot](/pictures/attentionMap.png)
 
 - **Analysis** 
 Thai is a tonal language with complex grammatical structures. Additive Attention, with its non-linearity (tanh function), can potentially better capture the intricate relationships between words and their contexts within a sentence. Also Thai sentences can exhibit long-distance dependencies, where the meaning of a word is influenced by words far away in the sentence. Additive Attention, with its capacity to model complex interactions, might be better equipped to handle these dependencies.
 
 
 ## 3. Sample Capture of Application
-  ![App Screenshot](app.png)
+  ![App Screenshot](/pictures/app.png)
