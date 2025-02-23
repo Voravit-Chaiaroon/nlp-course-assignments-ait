@@ -12,12 +12,12 @@ The BookCorpus dataset is a collection of over 11,000 books written by unpublish
 
 ## Model Details
 
-Base Architecture: BERT (Bidirectional Encoder Representations from Transformers)
-Pretraining: The Sentence-BERT model was pretrained on an NLI task using [SNLI datasets](https://huggingface.co/datasets/stanfordnlp/snli).
-Customizations:
-Vocabulary size: Custom 60,305 tokens compared to the standard BERT vocabulary.
-Maximum position embeddings: Extended to 1000 positions to accommodate longer sequences.
-Fine-tuned on NLI task with three labels: Entailment, Neutral, and Contradiction.
+Base Architecture: BERT (Bidirectional Encoder Representations from Transformers)  
+Pretraining: The Sentence-BERT model was pretrained on an NLI task using [SNLI datasets](https://huggingface.co/datasets/stanfordnlp/snli).  
+Customizations:  
+Vocabulary size: Custom 60,305 tokens compared to the standard BERT vocabulary.  
+Maximum position embeddings: Extended to 1000 positions to accommodate longer sequences.  
+Fine-tuned on NLI task with three labels: Entailment, Neutral, and Contradiction.  
 Classifier Head: A custom classifier head takes the concatenation of the mean-pooled embeddings of the premise and hypothesis, along with their absolute difference, and outputs logits for the three classes.
 
 ## Evaluation
@@ -34,7 +34,7 @@ Classification Report:
 - Recall: 0.33 (macro avg), 0.29 (weighted avg)
 - F1-Score: 0.15 (macro avg), 0.13 (weighted avg)
 
---- | precision | recall | f1-score | support
+| precision | recall | f1-score | support
 Entailment | 0.00 | 0.00 | 0.00 | 33
 Contradiction | 0.00 | 0.00 | 0.00 | 38
 --- | --- | --- | --- | ---  
@@ -43,9 +43,9 @@ macro avg | 0.10 | 0.33 | 0.15 | 100
 weighted avg | 0.08 | 0.29 | 0.13 | 100
 
 Confusion Matrix:
-[[0  0 33]
- [ 0  0 38]
- [ 0  0 29]]
+[[0  0 33]  
+[ 0  0 38]  
+[ 0  0 29]]
 
 ### Limitations and Challenges
 
@@ -62,6 +62,8 @@ The current model performs poorly on the NLI task, primarily due to dataset limi
 
 ### Citation
 
+Book Corpus Dataset
+
 ```python
 @article{zhu2015aligning,
   title={Aligning books and movies: Towards story-like visual explanations by watching movies and reading books},
@@ -70,6 +72,8 @@ The current model performs poorly on the NLI task, primarily due to dataset limi
   year={2015}
 }
 ```
+
+SNLI Dataset
 
 ```python
 @InProceedings{Zhu_2015_ICCV,
