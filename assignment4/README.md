@@ -34,13 +34,13 @@ Classification Report:
 - Recall: 0.33 (macro avg), 0.29 (weighted avg)
 - F1-Score: 0.15 (macro avg), 0.13 (weighted avg)
 
-| &nbsp; | precision | recall | f1-score | support |
-| Entailment | 0.00 | 0.00 | 0.00 | 33 |
-| Contradiction | 0.00 | 0.00 | 0.00 | 38 |
-| --- | --- | --- | --- | --- |
-| accuracy | 0.29 | 1.00 | 0.45 | 29 |
-| macro avg | 0.10 | 0.33 | 0.15 | 100 |
-| weighted avg | 0.08 | 0.29 | 0.13 | 100 |
+|               | precision | recall | f1-score | support |
+| Entailment    | 0.00      | 0.00   | 0.00     | 33      |
+| Contradiction | 0.00      | 0.00   | 0.00     | 38      |
+| ------ | ------ | ------ | ------ | ------ |
+| accuracy      | 0.29      | 1.00   | 0.45     | 29      |
+| macro avg     | 0.10      | 0.33   | 0.15     | 100     |
+| weighted avg  | 0.08      | 0.29   | 0.13     | 100     |
 
 Confusion Matrix:  
 [[0  0 33]  
