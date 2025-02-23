@@ -79,11 +79,7 @@ From the results we can tell that the model only predicts one class, it indicate
 - Improving Feature Extraction:
     - Pooling Methods: Experiment with different pooling strategies such as max pooling or attention-based pooling instead of just mean pooling to better capture salient features from the embeddings.
     - Enhanced Classifier Head: Redesign the classifier head by adding additional fully connected layers, dropout layers, or even attention mechanisms to better capture the nuances between the premise and hypothesis.
-    - Joint Encoding: Instead of encoding the premise and hypothesis separately and then combining their representations, consider using a joint encoding strategy where the input is the concatenation of both sentences (with appropriate segment embeddings) so that the model can directly capture their interaction.
-
-- Error Analysis and Iterative Improvements:
-    - Confusion Matrix Analysis: Perform a deeper error analysis to understand which types of examples are misclassified. This can help in understanding if certain classes are systematically confused with others.
-    - Validation on Multiple Datasets: Validate the model on different subsets or related NLI datasets (like SNLI and MNLI) to assess generalizability and pinpoint domain-specific issues.
+    <!-- - Joint Encoding: Instead of encoding the premise and hypothesis separately and then combining their representations, consider using a joint encoding strategy where the input is the concatenation of both sentences (with appropriate segment embeddings) so that the model can directly capture their interaction. -->
 
 ## Conclusion
 
