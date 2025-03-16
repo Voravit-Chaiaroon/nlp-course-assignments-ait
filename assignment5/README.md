@@ -64,11 +64,11 @@ Fine-tuning language models involves experimenting with various hyperparameters 
   Why it matters: In Direct Preference Optimization (DPO), beta controls the strength of the preference loss. A higher beta emphasizes preference alignment, while a lower beta allows more exploration.  
    Range: 0.05, 0.1, or 0.2
 
-  | Batch Size |                   |
-  | ---------- | ----------------- |
-  | 0.05       | 11.18867048432103 |
-  | 0.1        | 4.526151014950263 |
-  | 0.2        | 9.044402436228689 |
+  | Beta |                   |
+  | ---- | ----------------- |
+  | 0.05 | 11.18867048432103 |
+  | 0.1  | 4.526151014950263 |
+  | 0.2  | 9.044402436228689 |
 
 So the best parameters setting here would be: [Learning Rate: 1e-2, Batch Size:4, Beta:0.1]
 

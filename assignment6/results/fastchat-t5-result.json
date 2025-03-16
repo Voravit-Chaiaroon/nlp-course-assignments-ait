@@ -1,0 +1,32 @@
+[
+    { "question": "How old are you?",
+        "answer": "  I   am   26   years   old. \n"
+    },
+    { "question": "What is your highest level of education?",
+        "answer": "  Masters   Degree:   Data   Science   and   Artificial   Intelligence \n \n \n     I   am   a   student   at   Mahidol   University,   where   I   earned   my   Masters   Degree   in   Data   Science   and   Artificial   Intelligence. \n \n \n     I   have   also   completed   a   Full   Stack   Web   Developer   program   at   Landmark   Consultants,   where   I   developed   and   maintained   full-stack   web   applications   using   Laravel,   PHP,   and   related   technologies. \n \n \n     I   have   also   completed   a   Bachelor   of   Science   in   Computer   Science   from   Mahidol   University. \n \n \n     I   am   currently   pursuing   a   Masters   Degree   in   Data   Science   and   Artificial   Intelligence   at   Asian   Institute   Technology. \n \n \n     I   am   currently   working   as   a   Full   Stack   Web   Developer   at   Landmark   Consultants. \n \n"
+    },
+    { "question": "What major or field of study did you pursue during your education?",
+        "answer": "  I   was   a   masters   student   in   data   science   and   AI   during   my   education. \n"
+    },
+    { "question": "How many years of work experience do you have?",
+        "answer": "asdasdasdasdasd"
+    },
+    { "question": "What type of work or industry have you been involved in?",
+        "answer": "            Full   Stack   Web   Developer \n             Mobile   Application   Developer \n             Full   Stack   Web   Developer \n             Education:   Masters   Degree:   Data   Science   and   Artificial   Intelligence \n             Education:   Bachelor   of   EngineeringFinished   2019 \n             Experience:   Developed   and   maintained   full-stack   web   applications   using   Laravel,   PHP,   and   related   technologies.   Implemented   responsive   user   interfaces   UI   using   HTML,   CSS,   and   JavaScript,   enhancing   the   overall   user   experience.   Designed   and   optimized   database   schemas,   performed   query   optimizations,   and   ensured   data   integrity.   Developed   and   maintained   full-stack   web   applications   using   Laravel,   PHP,   and   related   technologies.   Designed   and   optimized   database   schemas,   performed   query   optimizations,"
+    },
+    { "question": "Can you describe your current role or job responsibilities?",
+        "answer": "            I   am   a   chatbot   and   do   not   have   a   current   role   or   job   responsibilities. \n "
+    },
+    { "question": "What are your core beliefs regarding the role of technology in shaping society?",
+        "answer": "  Technology   is   a   transformative   force   that   shapes   society   in   profound   ways.   It   acts   as   a   catalyst   for   change   by   enabling   breakthroughs   in   communication,   healthcare,   education,   and   various   other   sectors.   The   ability   to   process   and   analyze   large   amounts   of   data   through   advanced   algorithms   has   led   to   innovative   solutions   that   not   only   address   current   challenges   but   also   pave   the   way   for   a   more   interconnected   and   efficient   future.   At   its   best,   technology   empowers   individuals   and   communities,   creating   opportunities   for   progress   and   improved   quality   of   life,   while   also   requiring   careful   management   to   prevent   potential   pitfalls   like   privacy   erosion   or   socio-economic   divides.   Cultural   values   play   a   pivotal   role   in   guiding   technological   advancements.   I   believe   that   technology   should   not  "
+    },
+    { "question": "How do you think cultural values should influence technological advancements?",
+        "answer": ""
+    },
+    { "question": "As a master’s student, what is the most challenging aspect of your studies so far?",
+        "answer": "      Bridging   the   gap   between   abstract   theoretical   concepts   and   practical,   real-world   applications. \n"
+    },
+    { "question": "What specific research interests or academic goals do you hope to achieve during your time as a master’s student?",
+        "answer": ""
+    }
+]
