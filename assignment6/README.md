@@ -8,9 +8,9 @@ VoravitBot is an interactive chatbot designed to deliver quick and accurate resp
 
 ![App Screenshot](pictures/app.png)
 
-### Tasks
+## Tasks
 
-1) Find all relevant sources related to yourself, including documents, websites, or personal data. Please
+### 1) Find all relevant sources related to yourself, including documents, websites, or personal data. Please
 list down the reference documents 
 
 In order to build a robust chatbot that answers questions about Voravit's personal information, all relevant sources have been collected. The sources include:
@@ -19,10 +19,10 @@ In order to build a robust chatbot that answers questions about Voravit's person
 
 - jobsdb.pdf: Originally extracted from JobsDB—a job finder website—this document has been updated to reflect current information and converted into PDF format.
 
-### Example Content inside pdfs
+#### Example Content inside pdfs
 ```python
 About Voravit 
-I was born on 1998, currently 26 years old.Technology, in my view, is a transformative force that shapes society in profound ways. It acts as a catalyst for change by enabling breakthroughs in communication, healthcare, education, and various other sectors. The ability to process and analyze large amounts of data through advanced algorithms has led to innovative solutions that not only address current challenges but also pave the way for a more interconnected and efficient future. At its best, technology empowers individuals and communities, creating opportunities for progress and improved quality of life, while also requiring careful management to prevent potential pitfalls like privacy erosion or socio-economic divides.
+I was born on 1998, currently 26 years old.Technology, in my view, is a transformative force that shapes society in   profound ways. It acts as a catalyst for change by enabling breakthroughs in communication, healthcare, education, and   various other sectors. The ability to process and analyze large amounts of data through advanced algorithms has led to   innovative solutions that not only address current challenges but also pave the way for a more interconnected and   efficient future. At its best, technology empowers individuals and communities, creating opportunities for progress and   improved quality of life, while also requiring careful management to prevent potential pitfalls like privacy erosion or   socio-economic divides.
 ```
 ```python
 Jobsdb
@@ -39,7 +39,7 @@ HTML, CSS, and JavaScript, enhancing the overall user experience. Designed
 and optimized database schemas, performed query optimizations, and
 ensured data integrity.
 ```
-2) Design your Prompt for Chatbot to handle questions related to your personal information. Develop
+### 2) Design your Prompt for Chatbot to handle questions related to your personal information. Develop
 a model that can provide gentle and informative answers based on the designed template.
 
 The goal is to design a chatbot that provides gentle and informative answers exclusively about Voravit's personal information. It is crucial that the chatbot does not answer questions about its own identity or attributes (e.g., "What is your age?"). Instead, it should always respond with information related to Voravit.
@@ -56,7 +56,7 @@ prompt_template = """
     """.strip()
 ```
 
-3) Explore the use of other text-generation models or OPENAI models to enhance AI capabilities. 
+### 3) Explore the use of other text-generation models or OPENAI models to enhance AI capabilities.   
 These are the models considered to try in this assignment.
 |     Model     | Best For | Cost | Fine-Tuning | 
 | ------ | ------ | ------ | ------ | 
@@ -67,16 +67,16 @@ These are the models considered to try in this assignment.
 | Falcon-40B | Large open-source model   | Free  | Y    | 
 | Claude 2 | Safe, thoughtful responses  | Paid API   | N       | 
 
-4) Provide a list of the retriever and generator models you have utilized.
-In this assignment 2 retrievers and 2 generators have been utilized.
-Retrievers
-[LangChain Annoy](https://python.langchain.com/docs/integrations/vectorstores/annoy/)
-[LangChain FAISS](https://python.langchain.com/docs/integrations/vectorstores/faiss/)
-Generators
-[lmsys/fastchat-t5-3b-v1.0](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
-[google/flan-t5-xl](https://huggingface.co/google/flan-t5-xl)
+### 4) Provide a list of the retriever and generator models you have utilized.
+In this assignment 2 retrievers and 2 generators have been utilized.  
+Retrievers:  
+[LangChain Annoy](https://python.langchain.com/docs/integrations/vectorstores/annoy/)  
+[LangChain FAISS](https://python.langchain.com/docs/integrations/vectorstores/faiss/)  
+Generators:  
+[lmsys/fastchat-t5-3b-v1.0](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)  
+[google/flan-t5-xl](https://huggingface.co/google/flan-t5-xl)  
 
-5) Analyze any issues related to the models providing unrelated information.
+### 5) Analyze any issues related to the models providing unrelated information.
 
 Both FastChat-T5 and FLAN-T5 exhibit issues with providing unrelated or irrelevant information, but the nature and severity differ:
 
@@ -173,10 +173,10 @@ Repeats the same response for multiple questions (Q7–Q10), ignoring their dist
 
 This code is provided and derived from the work of Prof.Chaklam Silpasuwanchai and Mr.Todsavad Tangtortan on [Github](https://github.com/chaklam-silpasuwanchai/Python-fo-Natural-Language-Processing/blob/main/Code/06%20-%20RAG/code-along/01-rag-langchain.ipynb)
 
-[LangChain Annoy](https://python.langchain.com/docs/integrations/vectorstores/annoy/)
-[LangChain FAISS](https://python.langchain.com/docs/integrations/vectorstores/faiss/)
-[lmsys/fastchat-t5-3b-v1.0](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
-[google/flan-t5-xl](https://huggingface.co/google/flan-t5-xl)
+[LangChain Annoy](https://python.langchain.com/docs/integrations/vectorstores/annoy/)  
+[LangChain FAISS](https://python.langchain.com/docs/integrations/vectorstores/faiss/)  
+[lmsys/fastchat-t5-3b-v1.0](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)  
+[google/flan-t5-xl](https://huggingface.co/google/flan-t5-xl)  
 ```python
 @misc{https://doi.org/10.48550/arxiv.2210.11416,
   doi = {10.48550/ARXIV.2210.11416},
